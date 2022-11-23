@@ -1,0 +1,10 @@
+.input {
+    display: block;
+    width: 13.4rem;
+    padding: 0.5rem 0.75rem;
+    font-size: .8rem;
+    text-align: center;
+    color: #495057;
+    background-color: #E7FCCF;
+    border: 1px solid #ced4da;
+}

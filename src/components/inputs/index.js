@@ -1,11 +1,10 @@
 import React from "react";
+import './style.css';
 
-function Input(props) {
+export default function Input(props) {
     return (
         <>
-        <input type="text" placeholder={props.placeholder} />
+        <input className="input" type="text" placeholder={props.placeholder} />
         </>
     );
     }
-
-    export default Input;
