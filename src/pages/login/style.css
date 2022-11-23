@@ -1,0 +1,75 @@
+.headerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.titleBQ {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 1rem;
+    letter-spacing: .2rem;
+}
+
+.titleBQ::after {
+    content: "";
+    display: block;
+    width: 10rem;
+    height: 2px;
+    margin-left: 4rem;
+    background-color: #44911B;
+    margin-top: -0.3rem;
+}
+
+.logoLogin {
+    width: 5rem;
+    height: 5rem;
+    margin-top: -1rem;
+}
+
+.formLogin {
+    display: block;
+    flex-direction: column;
+    border: 1px solid #44911B;
+    background-color: #E19747;
+    width: 15rem;
+    height: 18rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.titleLogin {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.titleLogin::after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2px;
+    background-color: #44911B;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: .1rem;
+}
+
+.forgotPassword {
+    font-size: .7rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    margin-top: .2rem;
+}
+
